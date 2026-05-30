@@ -1,0 +1,63 @@
+name: ahmed
+description: "نظام احترافي لإدارة وطباعة سندات قبض الحوالات - تطبيق العكابي."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.20.2
+  open_file: ^3.5.10
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  qr_flutter: ^4.1.0
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+  fl_chart: ^1.2.0
+  shared_preferences: ^2.5.5
+  flutter_animate: ^4.5.2
+  package_info_plus: ^9.0.1
+  file_picker: ^11.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ─── الأصول ─────────────────────────────────────────────────────────────────
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  # ─── الخطوط المحلية - Cairo (يعمل بدون إنترنت في PDF) ──────────────────────
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Variable.ttf
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 800
+        - asset: assets/fonts/Cairo-Variable.ttf
+          weight: 900
