@@ -1,6 +1,7 @@
 // =============================================================================
 // شاشة إعدادات الحوالة الافتراضية - تطبيق العكابي
 // =============================================================================
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/utils/arabic_formatters.dart';
